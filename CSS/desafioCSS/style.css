@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    background-image: url(./pics/Casa\ Goku.png)
+}
+.box{
+    border-radius: .7rem;
+    border: solid black;
+    font-family: 'Courier New', Courier, monospace;
+}
+#title{
+    position: absolute;
+    left: 50%;
+    bottom: 97%;
+    transform: translate(-50%,0%);
+    background-color: orange;
+    width: 10rem;
+    height: 3rem;
+    text-align: center;
+}
+#card{
+    position: relative;
+    margin: 0 auto;
+    top: 3rem;
+    width: 40rem;
+    height: 50rem;
+    background-color: orangered;
+}
+.goku {
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%);
+    width: 175px;
+}
+div div:last-child{
+    position: absolute;
+    left: 5%;
+    top: 57.5%;
+    width: 90%;
+    height: 40%;
+    padding-left: 5%;
+    padding-top: 3%;
+    background-color: orange;
+}
+p {
+    text-align: left;
+    font-size: 1.6rem;
+}
