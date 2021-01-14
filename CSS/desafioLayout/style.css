@@ -56,13 +56,13 @@ section {
     width: 80vw;
     padding: 1rem;
     background-color: skyblue;
-  }
+}
   .footer-social, .footer-info {
     display: inline-block;
     margin: 1rem;
-  }
+}
   
-  .footer-info {
+.footer-info {
     position: absolute;
     right: 1.5rem;
   }
